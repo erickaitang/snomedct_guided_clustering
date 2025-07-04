@@ -19,7 +19,7 @@ This notebook performs ontology-guided analysis and clustering of SNOMED CT term
 
   > Note: Copyrighted SNOMED content cannot be uploaded to public repositories. Download the RF2 files yourself and configure the relevant file paths at the start of the notebook to point to the local RF2 folder.
 
-- **Cycle removal tool** (optional): 
+- **Cycle removal tool**: Required for generating a directed acyclic graph (DAG). Clone from:
   [https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies)
 
 ## Metadata File Format
