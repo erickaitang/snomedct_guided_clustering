@@ -31,7 +31,7 @@ The notebook will automatically split this into two columns:
 - `sct_code`: SNOMED CT concept ID (as a string)
 - `sct_description`: Corresponding human-readable label
 
-> Note: Make sure the codes match the concepts present in the SNOMED CT graph extracted from your RF2 snapshot.
+> Note: Make sure the codes match the concepts present in the SNOMED CT graph extracted from the RF2 files.
 
 ## Usage
 This notebook is designed to be run from top to bottom in a Jupyter environment. Intermediate outputs and plots will be saved in an `Output/` directory. You may adjust clustering and embedding parameters as needed.
