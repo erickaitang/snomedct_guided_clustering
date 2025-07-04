@@ -19,7 +19,7 @@ This notebook performs ontology-guided analysis and clustering of SNOMED CT term
 - **Cycle removal tool** (optional): 
   [https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies)
 
-> Note: You may point to your local RF2 folder by configuring the relevant file paths at the start of the notebook. Avoid uploading copyrighted SNOMED content to public repositories.
+> Note: You may point to your local RF2 folder by configuring the relevant file paths at the start of the notebook. Copyrighted SNOMED content cannot be uploaded to public repositories.
 
 ## Metadata File Format
 The diagnosis metadata file must be named `Metadata.csv` and contain at least one column:
@@ -31,7 +31,7 @@ The notebook will automatically split this into two columns:
 - `sct_code`: SNOMED CT concept ID (as a string)
 - `sct_description`: Corresponding human-readable label
 
-Make sure the codes match the concepts present in the SNOMED CT graph extracted from your RF2 snapshot.
+> Note: Make sure the codes match the concepts present in the SNOMED CT graph extracted from your RF2 snapshot.
 
 ## Usage
 This notebook is designed to be run from top to bottom in a Jupyter environment. Intermediate outputs and plots will be saved in an `Output/` directory. You may adjust clustering and embedding parameters as needed.
