@@ -16,10 +16,11 @@ This notebook performs ontology-guided analysis and clustering of SNOMED CT term
 ## External Files
 - **SNOMED CT RF2 files**: Required for graph construction. Download from:
   [https://www.nlm.nih.gov/healthit/snomedct/international.html](https://www.nlm.nih.gov/healthit/snomedct/international.html)
+
+  > Note: Copyrighted SNOMED content cannot be uploaded to public repositories. Download the RF2 files yourself and configure the relevant file paths at the start of the notebook to point to the local RF2 folder.
+
 - **Cycle removal tool** (optional): 
   [https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies)
-
-> Note: You may point to your local RF2 folder by configuring the relevant file paths at the start of the notebook. Copyrighted SNOMED content cannot be uploaded to public repositories.
 
 ## Metadata File Format
 The diagnosis metadata file must be named `Metadata.csv` and contain at least one column:
