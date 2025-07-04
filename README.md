@@ -16,14 +16,12 @@ This notebook performs ontology-guided analysis and clustering of SNOMED CT term
 ## External Files
 
 ### SNOMED CT RF2 files  
-Download from:  
-👉 [https://www.nlm.nih.gov/healthit/snomedct/international.html](https://www.nlm.nih.gov/healthit/snomedct/international.html)
+Download from: [https://www.nlm.nih.gov/healthit/snomedct/international.html](https://www.nlm.nih.gov/healthit/snomedct/international.html)
 
 > **Note**: SNOMED CT content is licensed and cannot be uploaded to public repositories. Download the RF2 files manually and set your file paths at the start of the notebook.
 
 ### Cycle removal tool  
-Clone from:  
-👉 [https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies)
+Clone from: [https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies)
 
 > **Note**: Clone into a subfolder named `remove_cyclic_edges`.
 
