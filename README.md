@@ -14,12 +14,12 @@ This notebook performs ontology-guided analysis and clustering of SNOMED CT term
 - Required packages: `networkx`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `tqdm`, `node2vec`, `umap-learn`
 
 ## External Files
-- **SNOMED CT RF2 files**: Required for graph construction. Download from:
+- **SNOMED CT RF2 files**: Download from:
   [https://www.nlm.nih.gov/healthit/snomedct/international.html](https://www.nlm.nih.gov/healthit/snomedct/international.html)
 
   > Note: Copyrighted SNOMED content cannot be uploaded to public repositories. Download the RF2 files yourself and configure the relevant file paths at the start of the notebook to point to the local RF2 folder.
 
-- **Cycle removal tool**: Required for generating a directed acyclic graph (DAG). Clone from:
+- **Cycle removal tool**: Clone from:
   [https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies)
 
 ## Metadata File Format
